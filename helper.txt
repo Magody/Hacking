@@ -1,0 +1,8 @@
+timestamp = groups[0]
+ip_type = groups[1]
+source_ip = groups[2]
+source_port = int(groups[3])
+dest_ip = groups[4]
+dest_port = int(groups[5])
+conn_type = groups[6]
+length = int(groups[7])
